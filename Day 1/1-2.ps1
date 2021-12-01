@@ -1,6 +1,6 @@
 ﻿$inputValue, $oldSum, $inputSum, $numIncreases = 0
 $oldValues = [System.Collections.ArrayList]@()
-(Read-Host -Prompt 'Gimme my numbers') -split [System.Environment]::NewLine | ForEach-Object {
+(Get-Content -Path './input.txt') -split [System.Environment]::NewLine | ForEach-Object {
     if([int]::TryParse($_, [ref]$inputValue)) {
         $oldSum = $inputSum
         $inputSum += $inputValue
@@ -13,3 +13,4 @@ $oldValues = [System.Collections.ArrayList]@()
     }
 }
 Write-Output "Number of Increases: $numIncreases"
+Read-Host -Prompt 'Tada! Hit enter to close the script' | Out-Null
