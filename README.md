@@ -1,6 +1,23 @@
 # Vueren Kuraenir Advent of Code 2021
 ## Vueren Kuraenir's solutions for 2021
 
+
+## Day 2-1:
+Did this puzzle in PowerShell.
+
+Ended up forgetting to convert to an integer this time around.
+
+## Day 2-2:
+Did this puzzle in PowerShell.
+
+Managed to accidentally subtract instead of add when managing the aim. Did I mention that addition is hard?
+
+## End of Day 2 Comments:
+Sometimes, I worry how simple things seem to me. Maybe I should try for the leaderboards. It'll be tough to speed read in 30 seconds, code in a minute, and win, but should be doable. I just have to be ready to develop next time. Was too busy playing games before I remembered this came out, and by then I was already several minutes too late.
+
+The main thing is making sure I don't make a simple mistake like addition. Is it wrong of me to say that I found Calculus easier than Kindergarten Arithmetic? To this day I still wonder how I didn't fail that part of Kindergarten...
+
+
 ## Day 1-1:
 Did this puzzle in PowerShell.
 
